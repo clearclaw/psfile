@@ -1,0 +1,44 @@
+PSFile - a Python module to create PostScript files
+
+
+Introduction
+------------
+
+   The PSFile module is a low-level helper for creating PostScript
+files from Python scripts.
+
+   PSFile comes with NO WARRANTY, to the extent permitted by law.
+You may redistribute copies of Wisent under the terms of the GNU
+General Public License.  For more information about these matters,
+read the file COPYING of the source code distribution.
+
+  Please send any suggestions and bug reports to Jochen Voss
+<voss@seehuhn.de> .  The PSFile homepage can be found at
+http://seehuhn.de/pages/psfile .
+
+
+Installation
+------------
+
+   The module can be installed by extracting the source archive and
+then typing the following commands in resulting directory:
+
+        python setup.py build
+        python setup.py install
+
+For the second command you will probably need root privileges.
+
+
+Documentation
+-------------
+
+   There are several sources of information about PSFile:
+
+* The PSFile manual can be found on the web page
+  http://seehuhn.de/pages/psfile .
+
+* The Python module information, for example displayed by the command
+  'pydoc PSFile', contains basic usage information.
+
+* Example scripts can be found in the examples/ subdirectory of the
+  source code distribution.
